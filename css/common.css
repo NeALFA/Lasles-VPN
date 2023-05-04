@@ -30,4 +30,11 @@ button {
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
-  }
+}
+.light  {
+    background-color: black;
+   }
+   
+   .light * {
+     color: white !important;
+   }
