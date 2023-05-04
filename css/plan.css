@@ -1,0 +1,127 @@
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.plan h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+    width: 383px;
+}
+.plan > p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    width: 555px;
+}
+.plan-card {
+    width: 1090px;
+    display: flex;
+    justify-content: space-between;
+}
+.plan-card-mini {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 79px;
+    padding-bottom: 50px;
+    width: 330px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
+.plan-card-mini:first-child .offer{
+    padding-bottom: 130px;
+}
+.plan-card-mini:nth-child(2) .offer{
+    padding-bottom: 90px;
+}
+.plan-card-mini:last-child .offer{
+    padding-bottom: 50px;
+}
+.plan-card-mini img {
+    padding-bottom: 30px;
+}
+.plan-card-mini h5 {
+    padding-bottom: 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+.plan-card-mini .offer > p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.plan-card-mini .offer > p::before {
+    content:'';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+    background-image: url('../assets/images/ptichka.svg');
+    background-size: 15px 15px;
+}
+
+.plan-card-mini p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+    padding-bottom: 20px;
+}
+
+
+.plan-btn {
+    padding: 13px 62px;
+    cursor: pointer;
+    background-color: transparent;
+    width: 177px;
+    border: 1px solid #F53838;
+    border-radius: 50px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.plan-btn a {
+    color:#F53838
+}
+.plan-btn:hover {
+    background-color:#F53838;
+    box-shadow: 0px 20px 5px rgba(245, 56, 56, 0.35);
+    border-radius: 60px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.plan-btn:hover a {
+    color:white;
+}

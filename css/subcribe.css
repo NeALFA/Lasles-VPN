@@ -1,0 +1,59 @@
+.subcribe {
+    position: relative;
+    top: 126px;
+    display: flex;
+    justify-content: space-between;
+    padding: 58px 70px;    
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.subcribe-text {
+    width: 410px;
+}
+.subcribe-text > h2 {
+    width: 371px;
+    padding-bottom: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: #0B132A;
+}
+.subcribe-text > p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #4F5665;
+}
+.subcribe-button {
+    display: flex;
+    align-items: center;
+}
+.subcribe-button> a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    transition: 0.5s;
+    border: 2px solid #F53838;
+    padding: 17.5px 65px;
+    color:#F53838;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.subcribe-button:hover a {
+    color:white;
+    background-color: #F53838;
+    box-shadow: 0 15px 20px rgba(245, 56, 56, 0.35);
+}

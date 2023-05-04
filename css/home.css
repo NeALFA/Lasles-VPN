@@ -1,0 +1,52 @@
+#home {
+    padding-top: 60px;
+}
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home-left {
+    text-align: center;
+}
+
+.home-left > h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight:500;
+    font-size: 40px;
+    line-height: 70px;
+    color: #0B132A;
+    padding-bottom: 15px;
+}
+.home-left > h1 > span {
+    font-weight:800;
+}
+.home-left > p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.home-btn {
+    margin-top: 30px;
+    background: #F53838;
+    border-radius: 10px;
+    padding: 17.5px 77.5px;
+}
+.home-btn a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.home-right img {
+    padding-top:25px;
+    width: 100%;
+}

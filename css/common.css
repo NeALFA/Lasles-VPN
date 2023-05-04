@@ -1,0 +1,33 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    background-color: #FBFBFB;
+}
+nav {
+    background-color:#FBFBFB;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}  
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.container {
+    /* 1400-2*150+2*20=1440-300+40=1180 */
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }

@@ -1,0 +1,128 @@
+@media (min-width:700px) {
+    .nav-btn {
+        display:block;
+    }
+    .nav-btn button:last-child:hover{
+        background-color: #F53855;
+    }
+    .nav-btn button:hover a {
+        color:white
+    }
+    .nav-btn .in a {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #0B132A;
+    }
+    .nav-btn .up {
+        margin-left: 30px;
+        padding: 13px 45px;
+        border: 1px solid #F53855;
+        border-radius: 50px;
+    }
+    .nav-btn .up a {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F53855;
+    }
+    #navbar-open {
+        display: none;
+    }
+}
+
+@media (min-width:1000px) {
+    .nav-menu {
+        display: block;
+    }
+
+    .nav-menu ul {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        list-style-type: none;
+    }
+
+    .nav-menu a {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #4F5665;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    .nav-menu a:hover{
+        color: white;
+        font-size: 20px;
+    }   
+
+    .home {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .home-left {
+        width: 50%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .home-left h1 {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 70px;
+        color: #0B132A;
+    }
+    .home-btn {
+        cursor: pointer;
+        background-color: transparent;
+        width: 255px;
+        border: 1px solid #F53838;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    .home-btn a {
+        color:#F53838
+    }
+    .home-btn:hover {
+        background-color:#F53838;
+        box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.40);
+        border-radius: 10px;
+    }
+    .home-btn:hover a {
+        color:white;
+    }
+    .home-right{
+        width:50%;
+    }
+    
+    .result {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 105px;
+        padding-left: 91px;
+        padding-right: 91px;
+    }
+    .result hr {
+        rotate: 90deg;
+        width: 80%;
+    }
+}

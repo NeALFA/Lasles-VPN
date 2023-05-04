@@ -1,0 +1,39 @@
+.feature {
+    margin-top: 95px;
+    margin-bottom: 131px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-right h2{
+    width: 383px;
+    padding-bottom: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+}
+.feature-right p {
+    width: 427px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    padding-bottom: 20px;
+}
+.feature-right ul {
+    list-style-image:url(../assets/images/vector.svg);
+    list-style-position: inside;
+}
+.feature-right li {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}

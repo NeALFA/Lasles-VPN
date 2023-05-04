@@ -1,0 +1,132 @@
+header {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+#navbar {
+    padding-top: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo > span {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0B132A;
+}
+.nav-menu {
+    display: none;
+}
+.nav-btn {
+    display: none;
+}
+
+
+#navbar-responsive {
+	position: fixed;
+    top: -100%;
+	bottom: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5 ;
+    transition: 0.5s;
+}
+#navbar-responsive #navbar-close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+#navbar-responsive .nav-menu {
+    display: block;
+    padding-top: 50px;
+}
+#navbar-responsive .nav-list {
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#navbar-responsive .nav-item {
+    padding: 35px;
+    border-top: 1px solid #F53855;
+    width: 100%;
+    text-align: center;
+}
+#navbar-responsive .nav-item a {
+    font-family: 'Rubik';
+    font-weight: normal;
+    color: #F53855;
+    font-size: 25px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+#navbar-responsive .nav-item a:hover {
+    font-family: 'Rubik';
+    font-weight: normal;
+    color: white;
+    font-size: 45px;
+}
+#navbar-responsive .nav-item:first-child {
+    border-top: 0px solid black;
+}
+#navbar-responsive  .nav-btn {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#navbar-responsive  .nav-btn button:last-child:hover{
+    background-color: #F53855;
+}
+#navbar-responsive  .nav-btn button:first-child:hover{
+    background-color: #F53855;
+}
+#navbar-responsive  .nav-btn button:hover a {
+    color:white
+}
+#navbar-responsive  .nav-btn .in {
+    margin-top: 30px;
+    padding: 13px 65px;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+}
+#navbar-responsive  .nav-btn .in a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53855;
+}
+#navbar-responsive  .nav-btn .up {
+    margin-top: 30px;
+    padding: 13px 45px;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+}
+#navbar-responsive  .nav-btn .up a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53855;
+}
