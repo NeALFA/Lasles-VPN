@@ -32,9 +32,44 @@ button {
     padding-right: 20px;
 }
 .light  {
-    background-color: black;
-   }
+    transition: 0.5s;
+    background-color: rgb(22, 21, 21);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
    
-   .light * {
-     color: white !important;
-   }
+.light * {
+    color: white !important;
+}
+.light #navbar {
+    transition: 0.5s;
+    background-color: rgb(22, 21, 21);
+}
+.light #navbar-responsive {
+    transition: 0.5s;
+    background-color: rgb(22, 21, 21);
+}
+
+
+.light .result {
+    transition: 0.5s;
+    background-color:  rgb(56, 55, 55);
+}
+.light .plan-card-mini {
+    transition: 0.5s;
+    background-color:  rgb(56, 55, 55) !important;
+}
+.light .item {
+    transition: 0.5s;
+    background-color:  rgb(56, 55, 55) !important;
+}
+.light .subcribe {
+    transition: 0.5s;
+    background-color: rgb(56, 55, 55);
+}
+.light #footer {
+    transition: 0.5s;
+    background-color: rgb(22, 21, 21);
+}

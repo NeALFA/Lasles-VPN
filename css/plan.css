@@ -111,6 +111,11 @@
     -o-transition: 0.5s;
 }
 .plan-btn a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
     color:#F53838
 }
 .plan-btn:hover {

@@ -36,7 +36,7 @@ header {
 
 #navbar-responsive {
 	position: fixed;
-    top: -100%;
+    top: -1500%;
 	bottom: 0;
     left: 0;
     height: 100vh;
@@ -93,10 +93,10 @@ header {
     flex-direction: column;
     align-items: center;
 }
-#navbar-responsive  .nav-btn button:last-child:hover{
+#navbar-responsive  .nav-btn button:first-child:hover{
     background-color: #F53855;
 }
-#navbar-responsive  .nav-btn button:first-child:hover{
+#navbar-responsive  .nav-btn button:nth-child(2):hover{
     background-color: #F53855;
 }
 #navbar-responsive  .nav-btn button:hover a {

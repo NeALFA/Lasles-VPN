@@ -1,8 +1,10 @@
 @media (min-width:700px) {
     .nav-btn {
-        display:block;
+        display:flex;
+        gap: 15px;
+        align-items: center;
     }
-    .nav-btn button:last-child:hover{
+    .nav-btn button:nth-child(2):hover{
         background-color: #F53855;
     }
     .nav-btn button:hover a {
@@ -61,7 +63,9 @@
         -o-transition: 0.5s;
     }
     .nav-menu a:hover{
-        color: white;
+        font-family: 'Rubik';
+        color: black;
+        font-weight: 800px;
         font-size: 20px;
     }   
 

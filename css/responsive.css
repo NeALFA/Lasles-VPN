@@ -73,7 +73,7 @@
     }
     .item  {
         position: relative;
-        left: 15%;
+        left: 7%;
     }
     .owl-nav {
         position: absolute;
@@ -82,8 +82,7 @@
     }
     .owl-dot {
         position: relative;
-        left: 30%;
-        right: 25%;
+        left: 25%;
         top: 100px;
     }
 }
